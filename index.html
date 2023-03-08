@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css"/>
+     <script src="script.js"></script>
+     <title>Calculator</title>
+   </head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Vibes&display=swap" rel="stylesheet">
+<body onmousedown="return false">
+  <!-- <h1>Calculator</h1> -->
+  <div class="calculator">
+    <input class="input" type="text" id="result" />
+    <div class="allbuttons">
+      <div class="mycol">
+        <div class="row">
+          <button class="button mybtn1" value="AC" onclick="clearScreen()">AC</button>
+          <button class="button mybtn1" value="()" onclick="displayBracs()">()</button>
+          <button class="button mybtn1" value="%" onclick="display  ('%')">%</button>
+        </div>
+        <div class="row">
+          <button class="button mybtn2" value="7" onclick="display('7')">7</button>
+          <button class="button mybtn2" value="8" onclick="display('8')">8</button>
+          <button class="button mybtn2" value="9" onclick="display('9')">9</button>
+        </div>
+        <div class="row">
+          <button class="button mybtn2" value="4" onclick="display('4')">4</button>
+          <button class="button mybtn2" value="5" onclick="display('5')">5</button>
+          <button class="button mybtn2" value="6" onclick="display('6')">6</button>
+        </div>
+        <div class="row">
+          <button class="button mybtn2" value="1" onclick="display('1')">1</button>
+          <button class="button mybtn2" value="2" onclick="display('2')">2</button>
+          <button class="button mybtn2" value="3" onclick="display('3')">3</button>
+        </div>
+        <div class="row">
+          <button class="button mybtn2" value="0" onclick="display('0')">0</button>
+          <button class="button mybtn2" value="." onclick="display('.')">.</button>
+          <button class="button mybtn3" value=">" onclick="clrback()">&lt;-</button>
+        </div>
+      </div>
+    <div class="mycol">
+      <button class="button mybtn3" value="/" onclick="display('/')">/</button>
+      <button class="button mybtn3" value="*" onclick="display('*')">*</button>
+      <button class="button mybtn3" value="-" onclick="display('-')">-</button>
+      <button class="button mybtn3" value="+" onclick="display('+')">+</button>
+      <button class="button mybtn3" value="=" onclick="solve()">=</button>
+    </div>
+    </div>
+      
+    </div>
+  </div>  
+   </body>
+</html>
