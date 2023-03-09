@@ -114,7 +114,7 @@ if(x[i]!='%'){
   }
   else if(count>1){
     
-    document.getElementById('result').value="ERROR!:("
+    document.getElementById('result').value="ERROR!"
     }
     
   }
@@ -126,7 +126,7 @@ if(x[i]!='%'){
       return y
     }
     catch(solve){
-      document.getElementById('result').value = 'Error'
+      document.getElementById('result').value = 'ERROR!'
     }
   }
   
