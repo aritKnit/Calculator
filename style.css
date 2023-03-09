@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'Digital7';
-  src: url('../DigitalDisplayRegular-ODEO.woff') format('woff');
+  src: url('./DigitalDisplayRegular-ODEO.woff') format('woff');
 }
 
 *{
