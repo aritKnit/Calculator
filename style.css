@@ -1,8 +1,8 @@
 
 @font-face {
   font-family: 'Digital7';
-  console.log(${GITHUB_WORKSPACE} );
-  src: url(${GITHUB_WORKSPACE}+"/DigitalDisplayRegular-ODEO.woff") format('woff');
+/*   console.log(${GITHUB_WORKSPACE} ); */
+  src: url("../DigitalDisplayRegular-ODEO.woff") format('woff');
 }
 
 *{
