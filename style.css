@@ -4,6 +4,8 @@
 /*   console.log(${GITHUB_WORKSPACE} ); */
   src: url("../DigitalDisplayRegular-ODEO.woff") format('woff'),
     url("../digital-display-font/DigitalDisplayRegular-ODEO.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 *{
